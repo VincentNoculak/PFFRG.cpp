@@ -8,7 +8,7 @@
 #SBATCH --output=PKo.dat   # File to which standard Out- will be written
 #SBATCH --error=PKe.dat    # File to which standard err will be written
 #SBATCH --mail-type=END                # Type of email notification- BEGIN,END,FAIL,ALL
-#SBATCH --mail-user=v.noculak@fu-berlin.de   # Email to which notifications will be sent 
+#SBATCH --mail-user=email@domain.com   # Email to which notifications will be sent 
 #SBATCH -p normal
 
 export OMP_NUM_THREADS=128
