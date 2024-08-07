@@ -11,3 +11,5 @@ Similarly, "SpinCorrelationTermGenerator.cpp" generates terms of two-spin correl
 The generated terms of "FlowEquationTermGenerator.cpp" and "SpinCorrelationTermGenerator.cpp" are inserted into the source code of "PFFRG.cpp".
 
 "PFFRG.cpp" can be compiled by using the command "g++ -O2 -fopenmp -o PFFRG PFFRG.cpp -lgsl".
+
+"jobScript.sh" contains an example of a job script that can be used to run the compiled "PFFRG.cpp" code via the slurm workload manager.
